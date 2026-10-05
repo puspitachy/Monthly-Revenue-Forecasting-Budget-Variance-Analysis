@@ -1,0 +1,5 @@
+markdown_quartile,label,store_weeks,avg_markdown,avg_sales_index
+1,Lowest markdowns,540,6240.0,1.017
+2,Middle,540,10491.0,0.986
+3,Middle,540,15148.0,1.002
+4,Highest markdowns,495,33399.0,0.995

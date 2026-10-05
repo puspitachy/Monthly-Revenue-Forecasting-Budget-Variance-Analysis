@@ -1,0 +1,7 @@
+model,months,mape_pct,mae,bias_pct
+Budget (LY x growth target),8,1.23,2506108.0,-0.58
+Holt-Winters,8,1.27,2564457.0,-1.26
+Regression,8,2.02,4091937.0,-2.0
+SARIMA,8,2.36,4807761.0,-2.35
+Seasonal naive + trend,8,2.65,5398020.0,-2.64
+Seasonal naive,8,2.71,5531349.0,-2.71

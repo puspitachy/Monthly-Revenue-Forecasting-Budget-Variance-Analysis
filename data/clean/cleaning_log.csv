@@ -1,0 +1,15 @@
+table,check,rows,action
+stores,File uses old Mac line endings (\r),1,converted to normal line endings
+stores,Rows loaded,45,"45 stores, types A/B/C"
+weekly_sales,Rows loaded,421570,one row per store x department x week
+weekly_sales,Duplicate store-dept-week rows,0,none found
+weekly_sales,Negative weekly sales (returns exceed sales),1285,kept - they are real returns/adjustments; flagged in column is_negative
+weekly_sales,Week-ending day check,421570,all weeks end on Friday (Sat-Fri weeks)
+weekly_sales,Store-dept-weeks with no row,99665,not every store has every department every week; treated as no sales
+store_week_features,Weeks after last sales week (competition test period),1755,removed - no sales to compare against
+store_week_features,Markdown data missing before Nov 2011,4140,left blank (NULL) - Walmart only provided markdowns from Nov 2011; not set to 0
+store_week_features,Negative markdown values,23,kept as provided (small adjustments)
+store_week_features,Holiday flag mismatches vs sales file,0,none - flags agree
+departments,Department names,81,Walmart anonymised departments to numbers; labelled 'Dept 01' etc.
+calendar,Days generated,1098,"Walmart fiscal year: Feb-Jan, FY2013 = Feb 2012 - Jan 2013"
+budget_assumptions,FY2013 growth targets,3,ASSUMPTION (not Walmart data): budget = FY2012 actual x (1 + target)
